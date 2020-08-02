@@ -23,6 +23,16 @@ $thumbnailMargin: 10px;
   width: $thumbnailSize - 2*$thumbnailMargin;
   margin: $thumbnailMargin;
   flex-grow: 1;
+ 
+}
+
+.thumbnail-selected {
+  width: $thumbnailSize - 2*$thumbnailMargin;
+  margin: $thumbnailMargin;
+  flex-grow: 1;
+  border: $thumbnailMargin solid;
+  border-color: blue;
+ 
 }
 
 .thumbnailImage {
